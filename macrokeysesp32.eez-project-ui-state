@@ -1,8 +1,13 @@
 {
   "navigation": {
+    "selectedUserPageObject": "[macrokeysesp32.eez-project]:/userPages/1",
+    "selectedActionObject": "[macrokeysesp32.eez-project]:/actions/4",
     "selectedGlobalVariableObject": "[macrokeysesp32.eez-project]:/variables/globalVariables/0",
+    "selectedStyleObject": "[macrokeysesp32.eez-project]:/lvglStyles/styles/0",
+    "selectedThemeObject": "[macrokeysesp32.eez-project]:/themes/1",
+    "selectedThemeColorObject": "[macrokeysesp32.eez-project]:/colors/1",
     "subnavigationSelectedItems": {
-      "variables-tab/sub-navigation/selected-item": "Enums"
+      "variables-tab/sub-navigation/selected-item": "Global"
     }
   },
   "layoutModel": {
@@ -23,7 +28,8 @@
           },
           {
             "type": "border",
-            "size": 240,
+            "selected": 1,
+            "size": 93.5,
             "location": "right",
             "children": [
               {
@@ -70,7 +76,8 @@
           },
           {
             "type": "border",
-            "selected": 1,
+            "selected": 0,
+            "size": 70.15625,
             "location": "bottom",
             "children": [
               {
@@ -117,12 +124,13 @@
             {
               "type": "row",
               "id": "#d9e60650-28ad-4a9f-977b-558ccd33e22e",
-              "weight": 15,
+              "weight": 29.317447878542584,
               "children": [
                 {
                   "type": "tabset",
                   "id": "#e5a5af92-be5b-485a-bd1e-cca256f8cddc",
                   "weight": 1,
+                  "selected": 2,
                   "enableClose": false,
                   "children": [
                     {
@@ -188,10 +196,21 @@
             {
               "type": "tabset",
               "id": "EDITORS",
-              "weight": 65,
+              "weight": 31.667183004910385,
               "enableDeleteWhenEmpty": false,
               "enableClose": false,
               "children": [
+                {
+                  "type": "tab",
+                  "id": "#de0c3e46-4067-4227-971a-589e4c3442f4",
+                  "name": "Startup",
+                  "component": "editor",
+                  "config": {
+                    "objectPath": "[macrokeysesp32.eez-project]:/userPages/1",
+                    "permanent": false
+                  },
+                  "icon": "svg:page"
+                },
                 {
                   "type": "tab",
                   "id": "#d60c65e7-f6dc-42bb-94b9-544a7a2d57c2",
@@ -203,17 +222,6 @@
                     "permanent": false
                   },
                   "icon": "material:settings"
-                },
-                {
-                  "type": "tab",
-                  "id": "#3ea2af91-95f0-4a79-b212-b5688461958b",
-                  "name": "Main",
-                  "component": "editor",
-                  "config": {
-                    "objectPath": "[macrokeysesp32.eez-project]:/userPages/0",
-                    "permanent": false
-                  },
-                  "icon": "svg:page"
                 }
               ],
               "active": true
@@ -221,12 +229,12 @@
             {
               "type": "row",
               "id": "#589b027f-adfd-44a5-bf90-1170584d2cb1",
-              "weight": 20,
+              "weight": 39.01536911654705,
               "children": [
                 {
                   "type": "tabset",
                   "id": "#acf51734-124c-4f0f-945d-bbfa4a92631d",
-                  "weight": 2,
+                  "weight": 2.112676056338028,
                   "children": [
                     {
                       "type": "tab",
@@ -241,7 +249,7 @@
                 {
                   "type": "tabset",
                   "id": "#1bd9ce9e-fc34-499c-a64c-4f46fc2c3690",
-                  "weight": 1,
+                  "weight": 0.8873239436619719,
                   "children": [
                     {
                       "type": "tab",
@@ -456,10 +464,22 @@
               "type": "tabset",
               "id": "RUNTIME-EDITORS",
               "weight": 1,
-              "selected": -1,
               "enableDeleteWhenEmpty": false,
               "enableClose": false,
-              "children": []
+              "children": [
+                {
+                  "type": "tab",
+                  "id": "#be0b41f9-f4ac-463d-bc0a-56e24c61fb0b",
+                  "name": "Startup",
+                  "component": "editor",
+                  "config": {
+                    "objectPath": "[macrokeysesp32.eez-project]:/userPages/0",
+                    "permanent": false
+                  },
+                  "icon": "svg:page"
+                }
+              ],
+              "active": true
             },
             {
               "type": "row",
@@ -545,7 +565,8 @@
                       "component": "bitmaps",
                       "enableClose": false
                     }
-                  ]
+                  ],
+                  "active": true
                 },
                 {
                   "type": "tabset",
@@ -772,7 +793,8 @@
                       "component": "styles",
                       "enableClose": false
                     }
-                  ]
+                  ],
+                  "active": true
                 },
                 {
                   "type": "tabset",
@@ -846,7 +868,8 @@
                       "component": "colors",
                       "enableClose": false
                     }
-                  ]
+                  ],
+                  "active": true
                 }
               ]
             }
@@ -982,7 +1005,17 @@
   "features": {},
   "objects": {
     "[macrokeysesp32.eez-project]:/userPages/0[flow-state]": {
-      "selection": {},
+      "selection": {
+        "0": {
+          "0": {
+            "0": {},
+            "1": {
+              "5": {}
+            }
+          },
+          "1": {}
+        }
+      },
       "transform": {
         "translate": {
           "x": -160,
@@ -995,6 +1028,36 @@
         "position": 0,
         "secondToPx": 200,
         "scrollLeft": 0
+      }
+    },
+    "[macrokeysesp32.eez-project]:/userPages/1[flow-state]": {
+      "selection": {
+        "0": {
+          "0": {
+            "0": {}
+          },
+          "1": {
+            "$selected": true
+          }
+        }
+      },
+      "transform": {
+        "translate": {
+          "x": -160,
+          "y": -120
+        },
+        "scale": 1
+      },
+      "timeline": {
+        "isEditorActive": false,
+        "position": 0,
+        "secondToPx": 200,
+        "scrollLeft": 0
+      }
+    },
+    "[macrokeysesp32.eez-project]:/lvglStyles/styles[tree-state]": {
+      "0": {
+        "$selected": true
       }
     }
   },
@@ -1011,10 +1074,24 @@
   "logsPanelFilter": "all",
   "selectedStylePropertyName": "",
   "lvglPart": "MAIN",
-  "lvglState": "DEFAULT",
-  "lvglExpandedPropertiesGroup": [],
+  "lvglState": "PRESSED",
+  "lvglExpandedPropertiesGroup": [
+    "TEXT",
+    "ARC",
+    "LINE",
+    "IMAGE",
+    "BORDER",
+    "OUTLINE",
+    "SHADOW",
+    "MARGIN",
+    "PADDING",
+    "POSITION AND SIZE",
+    "LAYOUT",
+    "MISCELLANEOUS",
+    "BACKGROUND"
+  ],
   "showInactiveFlowsInDebugger": true,
   "globalFlowZoom": true,
   "flowZoom": 1,
-  "implementationLanguage": "C"
+  "implementationLanguage": "C++"
 }
